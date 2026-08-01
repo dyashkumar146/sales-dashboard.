@@ -48,7 +48,9 @@ function getRowValue(row, ...possibleKeys) {
   }
   return '';
 }
-
+app.get("/api/sales",) (req, res) => {
+  res.json(salesData);
+};
 app.get('/api/dashboard', (req, res) => {
   const { category, region } = req.query;
 
