@@ -32,7 +32,7 @@ export default function App() {
     fetchDashboardData();
   }, [category, region]);
 
-  const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || "http://sales-dashboard-1-0jyj.onrender.com";
+  const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || "https://sales-dashboard-1-0jyj.onrender.com";
   const fetchDashboardData = async () => {
     setLoading(true);
     try {
